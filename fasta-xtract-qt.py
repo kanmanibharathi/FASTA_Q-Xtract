@@ -197,7 +197,6 @@ class FastaXtractApp(QMainWindow):
                 border: 1px solid {self.colors['border_color']};
             }}
         """)
-        """)
 
         self.fasta_data = {}
         self.setup_ui()
@@ -432,7 +431,7 @@ class FastaXtractApp(QMainWindow):
         footer_layout.addWidget(gmail_container, 1, Qt.AlignmentFlag.AlignLeft)
 
         # Center: Copyright
-        copyright_lbl = QLabel("COPYRIGHT Â© 2024 ONE RESEARCH HUB. ALL RIGHTS RESERVED")
+        copyright_lbl = QLabel("COPYRIGHT © 2024 ONE RESEARCH HUB. ALL RIGHTS RESERVED")
         copyright_lbl.setStyleSheet(f"color: {self.colors['text_secondary']}; font-size: 9px; letter-spacing: 1.5px; font-weight: 500; border: none; background: transparent;")
         footer_layout.addWidget(copyright_lbl, 2, Qt.AlignmentFlag.AlignCenter)
 
